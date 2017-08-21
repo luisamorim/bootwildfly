@@ -10,6 +10,6 @@ public class HelloWildFlyController {
     @RequestMapping("hello")
     public String sayHello(){
     	System.out.println("say hello....");
-        return ("Hello, SpringBoot on Wildfly");
+        return ("Hello, ");
     }
 }
